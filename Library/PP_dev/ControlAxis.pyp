@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Element>
+    <LanguageFile>BuildBlock</LanguageFile>
+    <Script>
+        <Name>ControlAxis\Scripts\PP_dev\ControlAxis.py</Name>
+        <Title>ControlAxis</Title>
+        <Version>1.0.0.0</Version>
+        <ReadLastInput>True</ReadLastInput>
+    </Script>
+    <Page>
+         <Parameter>
+                <Name>ControlAxisLength</Name>
+                <Text>Length</Text>
+                <Value>6000.</Value>
+                <MinValue>1.</MinValue>
+                <MaxValue>10000.</MaxValue>
+                <ValueType>Length</ValueType>
+                <Visible>False</Visible>
+         </Parameter>
+         <Parameter>
+                <Name>Text</Name>
+                <Text>Text</Text>
+                <Value>0</Value>
+                <ValueType>String</ValueType>
+                <Visible>False</Visible>
+         </Parameter>
+    </Page>
+
+</Element>
